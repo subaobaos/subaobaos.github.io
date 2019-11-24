@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-24T13:21:12.805Z</updated>
+  <updated>2019-11-24T14:11:32.100Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="http://yoursite.com/2019/11/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2019/11/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2019-11-24T13:20:32.000Z</published>
-    <updated>2019-11-24T13:21:12.805Z</updated>
+    <title>hello new world</title>
+    <link href="http://yoursite.com/2019/11/24/hello-new-world/"/>
+    <id>http://yoursite.com/2019/11/24/hello-new-world/</id>
+    <published>2019-11-24T14:00:37.000Z</published>
+    <updated>2019-11-24T14:11:32.100Z</updated>
     
     <summary type="html">
     
@@ -29,35 +29,14 @@
       
         
         
-          &lt;h4 id=&quot;我的&quot;&gt;&lt;a href=&quot;#我的&quot; class=&quot;headerlink&quot; title=&quot;我的&quot;&gt;&lt;/a&gt;我的&lt;/h4&gt;&lt;h6 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;大家好～
         
       
     
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/11/24/hello-world/"/>
-    <id>http://yoursite.com/2019/11/24/hello-world/</id>
-    <published>2019-11-23T18:31:29.768Z</published>
-    <updated>2019-11-23T18:31:29.768Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
+      <category term="其它" scheme="http://yoursite.com/categories/%E5%85%B6%E5%AE%83/"/>
     
     
   </entry>
