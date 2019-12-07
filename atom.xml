@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-07T14:23:30.954Z</updated>
+  <updated>2019-12-07T14:50:25.781Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图片旋转与清晰度</title>
+    <link href="http://yoursite.com/2019/12/07/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC%E4%B8%8E%E6%B8%85%E6%99%B0%E5%BA%A6/"/>
+    <id>http://yoursite.com/2019/12/07/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC%E4%B8%8E%E6%B8%85%E6%99%B0%E5%BA%A6/</id>
+    <published>2019-12-07T14:42:57.000Z</published>
+    <updated>2019-12-07T14:50:25.781Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;图片清晰度识别&quot;&gt;&lt;a href=&quot;#图片清晰度识别&quot; class=&quot;headerlink&quot; title=&quot;图片清晰度识别&quot;&gt;&lt;/a&gt;图片清晰度识别&lt;/h2&gt;&lt;h4 id=&quot;对某文件夹下所有图片文件进行遍历，找出模糊的图片。&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>pyqt5环境配置</title>
