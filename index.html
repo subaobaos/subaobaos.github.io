@@ -292,6 +292,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -320,15 +342,14 @@
 
       
         
-          
-            <h2 id="图片清晰度识别"><a href="#图片清晰度识别" class="headerlink" title="图片清晰度识别"></a>图片清晰度识别</h2><h4 id="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"><a href="#对某文件夹下所有图片文件进行遍历，找出模糊的图片。" class="headerlink" title="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"></a>对某文件夹下所有图片文件进行遍历，找出模糊的图片。</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> glob</span><br><span class="line"></span><br><span class="line">imglist = glob.glob(<span class="string">r'D:\byte_data\1205_getbook\gogokid\k2_u3\*.jpg'</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getImageVar</span><span class="params">(imgPath)</span>:</span></span><br><span class="line">	image = cv2.imread(imgPath);</span><br><span class="line">	img2gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span><br><span class="line">	imageVar = cv2.Laplacian(img2gray, cv2.CV_64F).var()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> imageVar</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> imglist:</span><br><span class="line">	s = getImageVar(i)</span><br><span class="line">	print(str(s)+str(i))</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="图片旋转180度"><a href="#图片旋转180度" class="headerlink" title="图片旋转180度"></a>图片旋转180度</h2><h4 id="对某文件夹下所有图片文件进行遍历，旋转180度"><a href="#对某文件夹下所有图片文件进行遍历，旋转180度" class="headerlink" title="对某文件夹下所有图片文件进行遍历，旋转180度"></a>对某文件夹下所有图片文件进行遍历，旋转180度</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> glob</span><br><span class="line"></span><br><span class="line">img_list = glob.glob(<span class="string">r'/Users/wangguoqiang/Desktop/*.png'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> img_list:</span><br><span class="line">    img = cv2.imread(i)</span><br><span class="line">    new_img = cv2.flip(img, <span class="number">-1</span>)   <span class="comment"># 旋转类型</span></span><br><span class="line">    cv2.imwrite(i, new_img)</span><br></pre></td></tr></table></figure>
-
-
-          
+          <h2 id="图片清晰度识别"><a href="#图片清晰度识别" class="headerlink" title="图片清晰度识别"></a>图片清晰度识别</h2><h4 id="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"><a href="#对某文件夹下所有图片文件进行遍历，找出模糊的图片。" class="headerlink" title="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"></a>对某文件夹下所有图片文件进行遍历，找出模糊的图片。</h4>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/12/07/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC%E4%B8%8E%E6%B8%85%E6%99%B0%E5%BA%A6/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -446,7 +467,8 @@
       
         
           
-            <h1 id="pyqt5环境配置"><a href="#pyqt5环境配置" class="headerlink" title="pyqt5环境配置"></a>pyqt5环境配置</h1><p><img src="https://subaobao-newdata.oss-cn-shanghai.aliyuncs.com/blog/%E6%88%AA%E5%B1%8F2019-12-01%E4%B8%8B%E5%8D%882.57.23.png" alt="avatar"></p>
+            <p>title: 图片旋转与清晰度<br>date: 2019-12-07 22:42:57<br>categories: pyqt5环境配置</p>
+<p><img src="https://subaobao-newdata.oss-cn-shanghai.aliyuncs.com/blog/%E6%88%AA%E5%B1%8F2019-12-01%E4%B8%8B%E5%8D%882.57.23.png" alt="avatar"></p>
 <h4 id="下午吃过饭，没啥事就把pyqt环境配置了下。感觉挺不错的"><a href="#下午吃过饭，没啥事就把pyqt环境配置了下。感觉挺不错的" class="headerlink" title="下午吃过饭，没啥事就把pyqt环境配置了下。感觉挺不错的"></a>下午吃过饭，没啥事就把pyqt环境配置了下。感觉挺不错的</h4><h4 id="借鉴地址-https-blog-csdn-net-justinaelx-article-details-80153513"><a href="#借鉴地址-https-blog-csdn-net-justinaelx-article-details-80153513" class="headerlink" title="借鉴地址:https://blog.csdn.net/justinaelx/article/details/80153513"></a>借鉴地址:<a href="https://blog.csdn.net/justinaelx/article/details/80153513" target="_blank" rel="noopener">https://blog.csdn.net/justinaelx/article/details/80153513</a></h4>
           
         
@@ -549,8 +571,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%85%B6%E5%AE%83/" itemprop="url" rel="index">
-                    <span itemprop="name">其它</span>
+                  <a href="/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E5%8E%86/" itemprop="url" rel="index">
+                    <span itemprop="name">生活经历</span>
                   </a>
                 </span>
 
@@ -684,13 +706,22 @@
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -720,6 +751,20 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.dydpg.com/" title="冻硬的苹果" target="_blank">冻硬的苹果</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -751,15 +796,9 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 

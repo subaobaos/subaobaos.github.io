@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Python," />
 
 
 
@@ -81,14 +81,15 @@
 
 
 
-<meta name="description" content="图片清晰度识别对某文件夹下所有图片文件进行遍历，找出模糊的图片。123456789101112131415import cv2import globimglist = glob.glob(r&amp;apos;D:\byte_data\1205_getbook\gogokid\k2_u3\*.jpg&amp;apos;)def getImageVar(imgPath):	image = cv2.imread(imgPath);	im">
+<meta name="description" content="图片清晰度识别对某文件夹下所有图片文件进行遍历，找出模糊的图片。">
+<meta name="keywords" content="Python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图片旋转与清晰度">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;07&#x2F;%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC%E4%B8%8E%E6%B8%85%E6%99%B0%E5%BA%A6&#x2F;index.html">
 <meta property="og:site_name" content="小苏的博客">
-<meta property="og:description" content="图片清晰度识别对某文件夹下所有图片文件进行遍历，找出模糊的图片。123456789101112131415import cv2import globimglist = glob.glob(r&amp;apos;D:\byte_data\1205_getbook\gogokid\k2_u3\*.jpg&amp;apos;)def getImageVar(imgPath):	image = cv2.imread(imgPath);	im">
+<meta property="og:description" content="图片清晰度识别对某文件夹下所有图片文件进行遍历，找出模糊的图片。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-12-07T14:50:25.781Z">
+<meta property="og:updated_time" content="2019-12-17T14:19:00.352Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -292,6 +293,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -319,7 +342,9 @@
       
 
       
-        <h2 id="图片清晰度识别"><a href="#图片清晰度识别" class="headerlink" title="图片清晰度识别"></a>图片清晰度识别</h2><h4 id="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"><a href="#对某文件夹下所有图片文件进行遍历，找出模糊的图片。" class="headerlink" title="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"></a>对某文件夹下所有图片文件进行遍历，找出模糊的图片。</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> glob</span><br><span class="line"></span><br><span class="line">imglist = glob.glob(<span class="string">r'D:\byte_data\1205_getbook\gogokid\k2_u3\*.jpg'</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getImageVar</span><span class="params">(imgPath)</span>:</span></span><br><span class="line">	image = cv2.imread(imgPath);</span><br><span class="line">	img2gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span><br><span class="line">	imageVar = cv2.Laplacian(img2gray, cv2.CV_64F).var()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> imageVar</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> imglist:</span><br><span class="line">	s = getImageVar(i)</span><br><span class="line">	print(str(s)+str(i))</span><br></pre></td></tr></table></figure>
+        <h2 id="图片清晰度识别"><a href="#图片清晰度识别" class="headerlink" title="图片清晰度识别"></a>图片清晰度识别</h2><h4 id="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"><a href="#对某文件夹下所有图片文件进行遍历，找出模糊的图片。" class="headerlink" title="对某文件夹下所有图片文件进行遍历，找出模糊的图片。"></a>对某文件夹下所有图片文件进行遍历，找出模糊的图片。</h4><a id="more"></a>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> glob</span><br><span class="line"></span><br><span class="line">imglist = glob.glob(<span class="string">r'D:\byte_data\1205_getbook\gogokid\k2_u3\*.jpg'</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getImageVar</span><span class="params">(imgPath)</span>:</span></span><br><span class="line">	image = cv2.imread(imgPath);</span><br><span class="line">	img2gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span><br><span class="line">	imageVar = cv2.Laplacian(img2gray, cv2.CV_64F).var()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> imageVar</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> imglist:</span><br><span class="line">	s = getImageVar(i)</span><br><span class="line">	print(str(s)+str(i))</span><br></pre></td></tr></table></figure>
 
 
 
@@ -339,6 +364,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Python/" rel="tag"># Python</a>
+          
+        </div>
       
 
       
@@ -448,13 +479,22 @@
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -484,6 +524,20 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.dydpg.com/" title="冻硬的苹果" target="_blank">冻硬的苹果</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -531,15 +585,9 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
