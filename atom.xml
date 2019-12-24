@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-17T14:19:00.352Z</updated>
+  <updated>2019-12-24T13:46:11.230Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建雷神加速器租好系统后台</title>
+    <link href="http://yoursite.com/2019/12/24/%E6%90%AD%E5%BB%BA%E9%9B%B7%E7%A5%9E%E5%8A%A0%E9%80%9F%E5%99%A8%E7%A7%9F%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0/"/>
+    <id>http://yoursite.com/2019/12/24/%E6%90%AD%E5%BB%BA%E9%9B%B7%E7%A5%9E%E5%8A%A0%E9%80%9F%E5%99%A8%E7%A7%9F%E5%8F%B7%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0/</id>
+    <published>2019-12-24T13:33:32.000Z</published>
+    <updated>2019-12-24T13:46:11.230Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;需求缘由：部分玩家游某些游戏时，国内网络是不支持的，需要有网游加速器才可以，但是部分加速器只有包月且价格偏高，对于偶尔想体验的用户不太方便&lt;/p&gt;
+&lt;p&gt;本系统是基于淘宝、拼多多等加速器出租商家提供的&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>图片旋转与清晰度</title>
